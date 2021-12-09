@@ -1,10 +1,10 @@
 {
   "name": "wdpfront",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "the web design project front end project ",
   "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch"
   },
   "repository": {
     "type": "git",

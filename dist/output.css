@@ -480,11 +480,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   transform: var(--tw-transform);
 }
 
-.columns-3 {
-  -moz-columns: 3;
-       columns: 3;
-}
-
 .justify-center {
   justify-content: center;
 }
@@ -501,8 +496,4 @@ Ensure the default browser behavior of the `hidden` attribute.
 .text-slate-300 {
   --tw-text-opacity: 1;
   color: rgb(203 213 225 / var(--tw-text-opacity));
-}
-
-.outline {
-  outline-style: solid;
 }
